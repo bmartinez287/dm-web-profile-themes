@@ -11,7 +11,7 @@
 }
 
 .dm-profile-preamble {
-	background-color: rgb(1, 68, 85);
+	background-color: #112e51;
 	color: rgb(255, 255, 255);
 	padding: 1.5rem 1.5rem 1rem 3rem;
 	box-sizing: border-box;
@@ -19,7 +19,7 @@
 
 .dm-profile-preamble .dm-profile-heading {
 	background-color: rgb(255, 255, 255);
-	color: rgb(1, 68, 85);
+	color: #112e51;
 	display: inline-block;
 	padding: 0.25rem 1rem;
 	margin: 0;
@@ -27,7 +27,7 @@
 }
 
 .dm-profile-preamble .dm-profile-activities {
-	background-color: rgb(1, 68, 85);
+	background-color: #112e51;
 	color: rgb(255, 255, 255);
 }
 
@@ -45,7 +45,7 @@
 }
 
 .dm-profile-tabs__item {
-	background-color: rgb(218, 100, 39);
+	background-color: #fdb736;
 	border: 0;
 	display: block;
 	margin: 0.5rem 0;
@@ -55,7 +55,10 @@
 }
 
 .dm-profile-tabs__item--active {
-	background-color: rgb(1, 68, 85);
+	background-color: #112e51;
+}
+.dm-profile-tabs > .dm-profile-tabs__item--active > .dm-profile-tabs__link {
+	color: rgb(255, 255, 255) !important;
 }
 
 .dm-profile-tabs__link {
@@ -68,14 +71,13 @@
 
 .dm-profile-tabs > .dm-profile-tabs__item > .dm-profile-tabs__link {
 	box-shadow: none;
-	color: rgb(255, 255, 255);
+	color: #112e51;
 }
 
 .dm-profile-tabs__item--active .dm-profile-tabs__link::after {
 	content: ' \27F5';
 	font-weight: bold;
 }
-
 .dm-profile-section--hidden {
 	display: none;
 }
@@ -93,7 +95,7 @@
 }
 
 .dm-profile-break {
-	background-color: rgb(237, 171, 110);
+	background-color: #fdb736;
 	height: 0.15rem;
 	margin: 0.5rem 0;
 	padding: 0;
